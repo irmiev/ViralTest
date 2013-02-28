@@ -8,11 +8,11 @@ public class Painter extends Thread {
 
 	public void run() {
 		while (true) {
-			System.out.println("I am painting!!");
+			//System.out.println("I am painting!!");
 			vA.repaint();
-
+			
 			try {
-				this.sleep(10);
+				this.sleep(100);
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
