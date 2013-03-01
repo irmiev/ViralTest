@@ -1,3 +1,4 @@
+import java.awt.Color;
 import java.awt.Graphics;
 
 import javax.swing.JFrame;
@@ -16,7 +17,9 @@ public class MainWindow extends JFrame {
 	
 	public MainWindow(){
 		vA = new ViralArea();
-		this.setBounds(10, 10, 1000, 500);
+		this.setTitle("Infection area");
+		this.setBounds(10, 10, 1100, 600);
+		this.setBackground(Color.white);
 		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
 		this.setLayout(null);
 		this.setVisible(true);
@@ -24,7 +27,7 @@ public class MainWindow extends JFrame {
 	}
 
 	public void paint(Graphics g){
-		super.paint(g);
-		vA.paint(g);
+		//super.paint(g);
+		//vA.paint(g);
 	}
 }
