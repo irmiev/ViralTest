@@ -1,3 +1,4 @@
+package Viral;
 public class VictimClock extends Thread {
 
 	private Victim victim;

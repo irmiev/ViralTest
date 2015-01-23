@@ -1,3 +1,4 @@
+package Viral;
 public class Painter extends Thread {
 
 	ViralArea vA;
