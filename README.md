@@ -8,4 +8,5 @@ Here is to follow further information, however at the time being this will be im
 
 Checking if the commit log works on my local machine.
 Branch type2 still here.
+This is type2;;;
 
