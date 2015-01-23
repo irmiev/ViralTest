@@ -13,4 +13,12 @@ public class Reader {
 	private void setName(String name){
 		
 	}
+	
+	private void common(){
+		System.out.println("Thui is common for type 2");
+	}
+	
+	private String callMeType2(){
+		return "I am type 2";
+	}
 }
