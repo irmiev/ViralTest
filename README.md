@@ -7,5 +7,5 @@ And I have not made any changes in a long-long .
 Here is to follow further information, however at the time being this will be impossible.
 
 Checking if the commit log works on my local machine.
-Branch type2
+Branch Master
 
